@@ -4,7 +4,7 @@
   "Entries": [
     {
       "Model": "Матрица AD13A2",
-      "VersionLabel": "5.4.5",
+      "VersionLabel": "8.0.25",
       "Name": "AD13A2_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_25.imgx",
       "Path": "AD13A2_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_25.imgx",
       "Size": 643426,
@@ -28,7 +28,7 @@
     },
     {
       "Model": "Матрица AD11A2",
-      "VersionLabel": "5.4.5",
+      "VersionLabel": "8.0.19",
       "Name": "AD11A2_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx",
       "Path": "AD11A2_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx",
       "Size": 625506,
@@ -84,7 +84,7 @@
     },
     {
       "Model": "Матрица AD11S",
-      "VersionLabel": "5.4.5",
+      "VersionLabel": "8.0.19",
       "Name": "AD11S_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx",
       "Path": "AD11S_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx",
       "Size": 608354,
@@ -92,7 +92,7 @@
     },
     {
       "Model": "Матрица AD13A2",
-      "VersionLabel": "5.4.2",
+      "VersionLabel": "8.0.14",
       "Name": "AD13A2_HYBRID_G3_ONLY_v_5_4_2_SPODES_DS_v8_0_14_new.imgx",
       "Path": "AD13A2_HYBRID_G3_ONLY_v_5_4_2_SPODES_DS_v8_0_14_new.imgx",
       "Size": 635746,
@@ -108,7 +108,7 @@
     },
     {
       "Model": "Матрица AD13A2",
-      "VersionLabel": "5.4.5",
+      "VersionLabel": "8.0.19",
       "Name": "AD13A2_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx",
       "Path": "AD13A2_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx",
       "Size": 641890,
@@ -172,7 +172,7 @@
     },
     {
       "Model": "Матрица AD13S",
-      "VersionLabel": "5.4.5",
+      "VersionLabel": "8.0.19",
       "Name": "AD13S_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx",
       "Path": "AD13S_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx",
       "Size": 618082,
@@ -180,7 +180,7 @@
     },
     {
       "Model": "Матрица CM3M.G-4-1",
-      "VersionLabel": "Не определена",
+      "VersionLabel": "8.2.0.9",
       "Name": "CM3M.G-4-1_v.8.2.0.9.imgx",
       "Path": "CM3M.G-4-1_v.8.2.0.9.imgx",
       "Size": 85394,
@@ -225,6 +225,76 @@
       "Path": "AD13S3_SPODES_HPLC_v_8_0_39_0.imgx",
       "Size": 674146,
       "Sha256": "102EDE608F063A528EBDDD9564729EC16CF4874A9958B9CB7F55A0B75732E241"
+    }
+  ],
+  "Versions": [
+    {
+      "Version": "8.2.0.9",
+      "Images": [
+        "CM3M.G-4-1_v.8.2.0.9.imgx"
+      ]
+    },
+    {
+      "Version": "8.0.40.0",
+      "Images": [
+        "AD13A4_SPODES_HPLC_v_8_0_40_0.imgx"
+      ]
+    },
+    {
+      "Version": "8.0.39.0",
+      "Images": [
+        "AD11A4_SPODES_HPLC_v_8_0_39_0.imgx",
+        "AD11S3_SPODES_HPLC_v_8_0_39_0.imgx",
+        "AD13A2_SPODES_HPLC_v_8_0_39_0.imgx",
+        "AD13A4_SPODES_HPLC_v_8_0_39_0.imgx",
+        "AD13S3_SPODES_HPLC_v_8_0_39_0.imgx"
+      ]
+    },
+    {
+      "Version": "8.0.33.0",
+      "Images": [
+        "AD11A2_SPODES_HPLC_v_8_0_33_0.imgx",
+        "AD11A3_SPODES_HPLC_v_8_0_33_0.imgx",
+        "AD11A4_SPODES_HPLC_v_8_0_33_0.imgx",
+        "AD11B1_SPODES_HPLC_v_8_0_33_0.imgx",
+        "AD11S1_SPODES_HPLC_v_8_0_33_0.imgx",
+        "AD11S2_SPODES_HPLC_v_8_0_33_0.imgx",
+        "AD11S3_SPODES_HPLC_v_8_0_33_0.imgx",
+        "AD13A2_SPODES_HPLC_v_8_0_33_0.imgx",
+        "AD13A3_SPODES_HPLC_v_8_0_33_0.imgx",
+        "AD13A4_SPODES_HPLC_v_8_0_33_0.imgx",
+        "AD13B1_SPODES_HPLC_v_8_0_33_0.imgx",
+        "AD13S1_SPODES_HPLC_v_8_0_33_0.imgx",
+        "AD13S2_SPODES_HPLC_v_8_0_33_0.imgx",
+        "AD13S3_SPODES_HPLC_v_8_0_33_0.imgx"
+      ]
+    },
+    {
+      "Version": "8.0.25",
+      "Images": [
+        "AD13A2_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_25.imgx"
+      ]
+    },
+    {
+      "Version": "8.0.19",
+      "Images": [
+        "AD11A2_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx",
+        "AD11S_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx",
+        "AD13A2_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx",
+        "AD13S_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx"
+      ]
+    },
+    {
+      "Version": "8.0.14",
+      "Images": [
+        "AD13A2_HYBRID_G3_ONLY_v_5_4_2_SPODES_DS_v8_0_14_new.imgx"
+      ]
+    },
+    {
+      "Version": "8.0.12",
+      "Images": [
+        "AD13A_Ethernet_SPODES_DS_v8_0_12.imgx"
+      ]
     }
   ]
 }
