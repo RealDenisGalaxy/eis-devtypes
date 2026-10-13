@@ -1,0 +1,230 @@
+{
+  "Schema": 1,
+  "VersionSource": "filename",
+  "Entries": [
+    {
+      "Model": "Матрица AD13A2",
+      "VersionLabel": "5.4.5",
+      "Name": "AD13A2_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_25.imgx",
+      "Path": "AD13A2_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_25.imgx",
+      "Size": 643426,
+      "Sha256": "E50C28269DABEDA279E98A3C702771BF6B7CCE4E92B60F7AA565BAF05BCD3192"
+    },
+    {
+      "Model": "Матрица AD13A4",
+      "VersionLabel": "8.0.40.0",
+      "Name": "AD13A4_SPODES_HPLC_v_8_0_40_0.imgx",
+      "Path": "AD13A4_SPODES_HPLC_v_8_0_40_0.imgx",
+      "Size": 687234,
+      "Sha256": "22D6F677BB2398A2ECB51F91A3007AB2E18143BB5441ACF01D924863B96D15A3"
+    },
+    {
+      "Model": "Матрица AD11A2",
+      "VersionLabel": "8.0.33.0",
+      "Name": "AD11A2_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Path": "AD11A2_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Size": 648290,
+      "Sha256": "79E169512A3DC71267DC2FBD83428F927A9DAFACA53CE896920B2BA3932E9232"
+    },
+    {
+      "Model": "Матрица AD11A2",
+      "VersionLabel": "5.4.5",
+      "Name": "AD11A2_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx",
+      "Path": "AD11A2_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx",
+      "Size": 625506,
+      "Sha256": "4E5E6587B859D5A8F19F36E57BB8A75A7487C91F32AB17E8F315A692306E37D2"
+    },
+    {
+      "Model": "Матрица AD11A3",
+      "VersionLabel": "8.0.33.0",
+      "Name": "AD11A3_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Path": "AD11A3_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Size": 662882,
+      "Sha256": "C80140BE20C267542018550542BC9CACD061AC47BF54DA4EE78E9F52B0321345"
+    },
+    {
+      "Model": "Матрица AD11A4",
+      "VersionLabel": "8.0.33.0",
+      "Name": "AD11A4_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Path": "AD11A4_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Size": 664674,
+      "Sha256": "75F16548FBE72629A668CCBE8EFC878ADABE1768511F694FDC19839607A1FD88"
+    },
+    {
+      "Model": "Матрица AD11B1",
+      "VersionLabel": "8.0.33.0",
+      "Name": "AD11B1_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Path": "AD11B1_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Size": 651106,
+      "Sha256": "18350D2E9ECECC5B71E696596321D904430D8F49335D47B3DC53F3D98A07C7EB"
+    },
+    {
+      "Model": "Матрица AD11S1",
+      "VersionLabel": "8.0.33.0",
+      "Name": "AD11S1_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Path": "AD11S1_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Size": 666210,
+      "Sha256": "745D98CD8C5AD585BBB4481CAAFAD457165B93E6D1D809E05009786AC3B5C90A"
+    },
+    {
+      "Model": "Матрица AD11S2",
+      "VersionLabel": "8.0.33.0",
+      "Name": "AD11S2_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Path": "AD11S2_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Size": 651106,
+      "Sha256": "DE704CBE2F9C4008E46BFF114C48609FBB4C7653341839C7F0F3569E99219D0C"
+    },
+    {
+      "Model": "Матрица AD11S3",
+      "VersionLabel": "8.0.33.0",
+      "Name": "AD11S3_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Path": "AD11S3_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Size": 653410,
+      "Sha256": "767630A196D8547DA1600AC3714F16067ACE03CC90465F27E1270E98797C040B"
+    },
+    {
+      "Model": "Матрица AD11S",
+      "VersionLabel": "5.4.5",
+      "Name": "AD11S_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx",
+      "Path": "AD11S_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx",
+      "Size": 608354,
+      "Sha256": "974446150DA385937FC6474448862DE85F5BF7E96E860D749AE653EBB9C1CC95"
+    },
+    {
+      "Model": "Матрица AD13A2",
+      "VersionLabel": "5.4.2",
+      "Name": "AD13A2_HYBRID_G3_ONLY_v_5_4_2_SPODES_DS_v8_0_14_new.imgx",
+      "Path": "AD13A2_HYBRID_G3_ONLY_v_5_4_2_SPODES_DS_v8_0_14_new.imgx",
+      "Size": 635746,
+      "Sha256": "B58ACE3F2D0DD3873C5A4DC9D9C13B30D7371DBCEE032ED167651DD2D83169FA"
+    },
+    {
+      "Model": "Матрица AD13A2",
+      "VersionLabel": "8.0.33.0",
+      "Name": "AD13A2_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Path": "AD13A2_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Size": 681058,
+      "Sha256": "00FDB10B743970FFDC0C7287BB24E6696887AFD74EC6B5BFC1602A12BECA98C1"
+    },
+    {
+      "Model": "Матрица AD13A2",
+      "VersionLabel": "5.4.5",
+      "Name": "AD13A2_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx",
+      "Path": "AD13A2_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx",
+      "Size": 641890,
+      "Sha256": "75D5355C656755ACF0ACEF4FC572D3505DC92DA6FDA90E6625D23A4A2C62F422"
+    },
+    {
+      "Model": "Матрица AD13A3",
+      "VersionLabel": "8.0.33.0",
+      "Name": "AD13A3_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Path": "AD13A3_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Size": 676994,
+      "Sha256": "CF9A3C7D6D5034428129152BDB9957D7377C627073D0E52F1FE10989970EFF1E"
+    },
+    {
+      "Model": "Матрица AD13A4",
+      "VersionLabel": "8.0.33.0",
+      "Name": "AD13A4_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Path": "AD13A4_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Size": 678786,
+      "Sha256": "E12092154A76C691F83F56414A1A903401261D638E24A73CDDF6D69128997841"
+    },
+    {
+      "Model": "Матрица AD13A",
+      "VersionLabel": "8.0.12",
+      "Name": "AD13A_Ethernet_SPODES_DS_v8_0_12.imgx",
+      "Path": "AD13A_Ethernet_SPODES_DS_v8_0_12.imgx",
+      "Size": 469110,
+      "Sha256": "66848B77509661648B604F2D966FBCF41F07D59B2E18DC3704CF05B189455CA1"
+    },
+    {
+      "Model": "Матрица AD13B1",
+      "VersionLabel": "8.0.33.0",
+      "Name": "AD13B1_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Path": "AD13B1_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Size": 664418,
+      "Sha256": "F0F92D32109C8C107F9BBE9AAD3F196F6A490C53D3B59A6709B43636447D16F5"
+    },
+    {
+      "Model": "Матрица AD13S1",
+      "VersionLabel": "8.0.33.0",
+      "Name": "AD13S1_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Path": "AD13S1_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Size": 676194,
+      "Sha256": "AC2ACCC67D012D345D1C5FC7A8FAFC136CC6B8AD37EFEB8D547E95CF2379C6CB"
+    },
+    {
+      "Model": "Матрица AD13S2",
+      "VersionLabel": "8.0.33.0",
+      "Name": "AD13S2_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Path": "AD13S2_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Size": 661346,
+      "Sha256": "4D578E17CB49969921CDD7C7EE5A30EB737F31DADFAF6E830527EA741BC9877C"
+    },
+    {
+      "Model": "Матрица AD13S3",
+      "VersionLabel": "8.0.33.0",
+      "Name": "AD13S3_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Path": "AD13S3_SPODES_HPLC_v_8_0_33_0.imgx",
+      "Size": 665954,
+      "Sha256": "D655317FCB6FFBC588A42E2ACA8E32E75A75B55F25E49D97A3258884E1183E42"
+    },
+    {
+      "Model": "Матрица AD13S",
+      "VersionLabel": "5.4.5",
+      "Name": "AD13S_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx",
+      "Path": "AD13S_SPODES_HYBRID_G3_ONLY_v_5_4_5_DS_v8_0_19.imgx",
+      "Size": 618082,
+      "Sha256": "530D08AB5FD3A7DC1FD575DEDF13D2439CFD359D7D234A45481E8FE3D1A5F646"
+    },
+    {
+      "Model": "Матрица CM3M.G-4-1",
+      "VersionLabel": "Не определена",
+      "Name": "CM3M.G-4-1_v.8.2.0.9.imgx",
+      "Path": "CM3M.G-4-1_v.8.2.0.9.imgx",
+      "Size": 85394,
+      "Sha256": "BA97A302DAA9FA223438B894E24AF61AD32FC21761B243D6F1C9498176B021D3"
+    },
+    {
+      "Model": "Матрица AD11A4",
+      "VersionLabel": "8.0.39.0",
+      "Name": "AD11A4_SPODES_HPLC_v_8_0_39_0.imgx",
+      "Path": "AD11A4_SPODES_HPLC_v_8_0_39_0.imgx",
+      "Size": 687234,
+      "Sha256": "7C0BE4F449C2495B001E4A014659684E214EDF5F0115AE956B96AE5EE32A5A2D"
+    },
+    {
+      "Model": "Матрица AD11S3",
+      "VersionLabel": "8.0.39.0",
+      "Name": "AD11S3_SPODES_HPLC_v_8_0_39_0.imgx",
+      "Path": "AD11S3_SPODES_HPLC_v_8_0_39_0.imgx",
+      "Size": 660578,
+      "Sha256": "546242192A96ECDA7D033DFF6DDF85FDEE150F94AFB5147160AC8B6E8846461B"
+    },
+    {
+      "Model": "Матрица AD13A2",
+      "VersionLabel": "8.0.39.0",
+      "Name": "AD13A2_SPODES_HPLC_v_8_0_39_0.imgx",
+      "Path": "AD13A2_SPODES_HPLC_v_8_0_39_0.imgx",
+      "Size": 688994,
+      "Sha256": "054E5A825962D0612886A6E2D83CB2CF9F8D76A0D2A17485BF38DA9ACD02CD21"
+    },
+    {
+      "Model": "Матрица AD13A4",
+      "VersionLabel": "8.0.39.0",
+      "Name": "AD13A4_SPODES_HPLC_v_8_0_39_0.imgx",
+      "Path": "AD13A4_SPODES_HPLC_v_8_0_39_0.imgx",
+      "Size": 687234,
+      "Sha256": "C373DCC421FA925661F944E3CA8C2EDF1CD89C861CEF0B345175E49FAF0569F5"
+    },
+    {
+      "Model": "Матрица AD13S3",
+      "VersionLabel": "8.0.39.0",
+      "Name": "AD13S3_SPODES_HPLC_v_8_0_39_0.imgx",
+      "Path": "AD13S3_SPODES_HPLC_v_8_0_39_0.imgx",
+      "Size": 674146,
+      "Sha256": "102EDE608F063A528EBDDD9564729EC16CF4874A9958B9CB7F55A0B75732E241"
+    }
+  ]
+}
