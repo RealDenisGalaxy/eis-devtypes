@@ -1,0 +1,372 @@
+<?xml version="1.0"?>
+<DevInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="ADX Autonomous Modem v.8.0" Description="Installation script (2018-01-29)">
+  <DevTypes>
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="1" ResourceId="3" TypeName="CM1M.U-3-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="2" ResourceId="3" TypeName="CM1M.U-4-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="3" ResourceId="3" TypeName="CM3M.U-4-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="4" ResourceId="3" TypeName="CM1M.G-6-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="5" ResourceId="3" TypeName="CM3M.G-4-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="6" ResourceId="3" TypeName="CM3M.G-3-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="7" ResourceId="3" TypeName="CM1M.FG-1-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="8" ResourceId="3" TypeName="CM3M.FG-1-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="9" ResourceId="3" TypeName="CM1C.G-1-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="10" ResourceId="3" TypeName="CM1C.G-2-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="11" ResourceId="3" TypeName="CM1M.N-1-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="12" ResourceId="3" TypeName="CM3M.N-1-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="15" ResourceId="3" TypeName="CM1M.FUG-1-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="16" ResourceId="3" TypeName="CM3M.FUG-1-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="17" ResourceId="3" TypeName="CM1M.G-4-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="18" ResourceId="3" TypeName="CM3M.G-2-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="19" ResourceId="3" TypeName="CM3M.U-6-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="20" ResourceId="3" TypeName="CM1M.FUG-2-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="21" ResourceId="3" TypeName="CM3M.FUG-2-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="22" ResourceId="3" TypeName="CM1M.G-7-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="23" ResourceId="3" TypeName="CM3M.G-5-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="24" ResourceId="3" TypeName="CM1M.G-8-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="25" ResourceId="3" TypeName="CM3M.G-6-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="26" ResourceId="3" TypeName="CM1C.FG-1-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="27" ResourceId="3" TypeName="CM3C.FG-1-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="28" ResourceId="3" TypeName="CM1M.FG-3-1" Interface="2" />
+    <DevType Producer="ADX" TypeId="8004" SubType1="0" SubType2="29" ResourceId="3" TypeName="CM3M.FG-3-1" Interface="2" />
+  </DevTypes>
+  <Resources>
+    <Resource Id="0" Name="Abstract" />
+    <Resource Id="1" Name="Electro" />
+    <Resource Id="2" Name="Gas" />
+    <Resource Id="3" Name="Heat" />
+    <Resource Id="4" Name="Water" />
+    <Resource Id="5" Name="HotWater" />
+  </Resources>
+  <Interfaces>
+    <Interface Id="0" Name="Addax" />
+    <Interface Id="1" Name="DC" />
+    <Interface Id="2" Name="M-BUS" />
+    <Interface Id="3" Name="Flownetix" />
+    <Interface Id="4" Name="Neptune" />
+    <Interface Id="5" Name="Cosem" />
+    <Interface Id="6" Name="PiiGab" />
+  </Interfaces>
+  <Categories>
+    <Category Id="0" Name="Internal" />
+    <Category Id="1" Name="Common" />
+    <Category Id="2" Name="Electro Consumption" />
+    <Category Id="3" Name="Electro 3F Consumption" />
+    <Category Id="4" Name="Electro Hour Consumption" />
+    <Category Id="5" Name="Electro Advanced" />
+    <Category Id="6" Name="Electro 3F Advanced" />
+    <Category Id="7" Name="Electro Quality" />
+    <Category Id="8" Name="Electro States" />
+    <Category Id="9" Name="Profiles" />
+    <Category Id="11" Name="Electro Config" />
+    <Category Id="12" Name="Heat" />
+    <Category Id="13" Name="Water" />
+    <Category Id="14" Name="Heat Consumption" />
+    <Category Id="15" Name="Water Consumption" />
+    <Category Id="16" Name="Gas" />
+    <Category Id="17" Name="Child Devices" />
+  </Categories>
+  <Configs>
+    <Config Name="DeviceID1">
+      <Object class_id="1" logical_name="0,0,96,1,0,255" attribute_index="2" data_index="0" />
+    </Config>
+    <Config Name="Clock_Time">
+      <Object class_id="8" logical_name="0,0,1,0,0,255" attribute_index="2" data_index="0" />
+      <Object class_id="8" logical_name="0,0,1,0,0,255" attribute_index="3" data_index="0" />
+    </Config>
+    <Config Name="Clock_Daylights_savings">
+      <Object class_id="8" logical_name="0,0,1,0,0,255" attribute_index="5" data_index="0" />
+      <Object class_id="8" logical_name="0,0,1,0,0,255" attribute_index="6" data_index="0" />
+      <Object class_id="8" logical_name="0,0,1,0,0,255" attribute_index="7" data_index="0" />
+      <Object class_id="8" logical_name="0,0,1,0,0,255" attribute_index="8" data_index="0" />
+    </Config>
+    <Config Name="AuthenticationMechanismNameForCurrentClient">
+      <Object class_id="15" logical_name="0,0,40,0,0,255" attribute_index="6" data_index="0" />
+    </Config>
+    <Config Name="AuthenticationMechanismNameForManagementClient">
+      <Object class_id="15" logical_name="0,0,40,0,3,255" attribute_index="6" data_index="0" />
+    </Config>
+    <Config Name="GPRSDiagnostic">
+      <Object class_id="1" logical_name="0,0,130,0,1,255" attribute_index="2" data_index="0" />
+      <Object class_id="1" logical_name="0,0,130,0,1,255" attribute_index="-1" data_index="0" />
+      <Object class_id="1" logical_name="0,0,130,0,1,255" attribute_index="-2" data_index="0" />
+      <Object class_id="1" logical_name="0,0,130,0,1,255" attribute_index="-3" data_index="0" />
+      <Object class_id="1" logical_name="0,0,130,0,1,255" attribute_index="-4" data_index="0" />
+      <Object class_id="1" logical_name="0,0,130,0,1,255" attribute_index="-5" data_index="0" />
+      <Object class_id="1" logical_name="0,0,130,0,1,255" attribute_index="-6" data_index="0" />
+      <Object class_id="1" logical_name="0,0,130,0,1,255" attribute_index="-7" data_index="0" />
+    </Config>
+    <Config Name="GPRSModemSetup">
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="2" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="3" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="4" data_index="0" />
+    </Config>
+    <Config Name="GPRSModemSetup1">
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-1" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-2" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-3" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-4" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-5" data_index="0" />
+    </Config>
+    <Config Name="GPRSModemSetup2">
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-6" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-7" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-8" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-10" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-11" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-12" data_index="0" />
+    </Config>
+    <Config Name="GPRSModemSetup3">
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-13" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-14" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-15" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-16" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-17" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-18" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-19" data_index="0" />
+    </Config>
+    <Config Name="GPRSModemSetup4">
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-20" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-21" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-22" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-23" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-24" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-25" data_index="0" />
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-26" data_index="0" />
+    </Config>
+    <Config Name="GPRSModemSetup5">
+      <Object class_id="45" logical_name="0,0,25,4,0,255" attribute_index="-27" data_index="0" />
+    </Config>
+    <Config Name="StandardEventLog">
+      <Object class_id="7" logical_name="0,0,99,98,0,255" attribute_index="3" data_index="0" />
+      <Object class_id="7" logical_name="0,0,99,98,0,255" attribute_index="7" data_index="0" />
+      <Object class_id="7" logical_name="0,0,99,98,0,255" attribute_index="8" data_index="0" />
+    </Config>
+  </Configs>
+  <Services>
+    <Service Name="GPRSModemRestart">
+      <Method class_id="45" logical_name="0,0,25,4,0,255" method_index="-1" />
+    </Service>
+  </Services>
+  <ObjInfo>
+    <Cosem_ObjInfo class_id="8" logical_name="0,0,1,0,0,255" Category="1" Description="Clock" Group="0" GroupIndex="0">
+      <Attr id="2" Access="R" />
+      <Attr id="3" Access="RW" />
+      <Attr id="4" Access="R" />
+      <Attr id="5" Access="RW" Constraint="Y(2000..2100,65535)M(1..12,253,254,255)D(1..31,253,254,255)W(1..7,255)h(0..23)m(0..59)s(0)" />
+      <Attr id="6" Access="RW" Constraint="Y(2000..2100,65535)M(1..12,253,254,255)D(1..31,253,254,255)W(1..7,255)h(0..23)m(0..59)s(0)" />
+      <Attr id="7" Access="RW" />
+      <Attr id="8" Access="RW" />
+      <Attr id="9" Access="R" />
+    </Cosem_ObjInfo>
+    <Cosem_ObjInfo class_id="15" logical_name="0,0,40,0,0,255" Category="1" Description="CurrentAssociation" Group="0" GroupIndex="0">
+      <Attr id="6" Access="R">
+        <DataDescr Name="AuthenticationMechanismName" type="STRUCTURE" Constraint="7" />
+        <DataDescr Name="JointISOCTTElement" type="UNSIGNED" Constraint="2" />
+        <DataDescr Name="CountryElement" type="UNSIGNED" Constraint="16" />
+        <DataDescr Name="CountryNameElement" type="LONG_UNSIGNED" Constraint="756" />
+        <DataDescr Name="IdentifiedOrganizationElement" type="UNSIGNED" Constraint="5" />
+        <DataDescr Name="DLMSUAElement" type="UNSIGNED" Constraint="8" />
+        <DataDescr Name="AuthenticationMechanismNameElement" type="UNSIGNED" Constraint="2" />
+        <DataDescr Name="MechanismIdElement" type="UNSIGNED" Constraint="0@COSEM_LowestLS_mechanism_name;1@COSEM_LLS_mechanism_name;5@COSEM_HLS_Mechanism_Name_Using_GMAC" />
+      </Attr>
+      <Attr id="7" Access="N">
+        <DataDescr Name="LLSSecret" type="OCTET_STRING" Constraint="????????" />
+      </Attr>
+    </Cosem_ObjInfo>
+    <Cosem_ObjInfo class_id="15" logical_name="0,0,40,0,1,255" Category="1" Description="PublicClientAssociation" Group="0" GroupIndex="0" />
+    <Cosem_ObjInfo class_id="15" logical_name="0,0,40,0,3,255" Category="1" Description="ManagementClientAssociation" Group="0" GroupIndex="0">
+      <Attr id="6" Access="RW">
+        <DataDescr Name="AuthenticationMechanismName" type="STRUCTURE" Constraint="7" />
+        <DataDescr Name="JointISOCTTElement" type="UNSIGNED" Constraint="2" />
+        <DataDescr Name="CountryElement" type="UNSIGNED" Constraint="16" />
+        <DataDescr Name="CountryNameElement" type="LONG_UNSIGNED" Constraint="756" />
+        <DataDescr Name="IdentifiedOrganizationElement" type="UNSIGNED" Constraint="5" />
+        <DataDescr Name="DLMSUAElement" type="UNSIGNED" Constraint="8" />
+        <DataDescr Name="AuthenticationMechanismNameElement" type="UNSIGNED" Constraint="2" />
+        <DataDescr Name="MechanismIdElement" type="UNSIGNED" Constraint="0@COSEM_LowestLS_mechanism_name;1@COSEM_LLS_mechanism_name;5@COSEM_HLS_Mechanism_Name_Using_GMAC" />
+      </Attr>
+      <Attr id="7" Access="N">
+        <DataDescr Name="LLSSecret" type="OCTET_STRING" Constraint="????????" />
+      </Attr>
+    </Cosem_ObjInfo>
+    <Cosem_ObjInfo class_id="45" logical_name="0,0,25,4,0,255" Category="1" Description="GPRSModemSetup" Group="0" GroupIndex="0">
+      <Attr id="2" Access="RW" Constraint="NAME?*:30">
+        <DataDescr Name="APN" type="OCTET_STRING" Constraint="*:30" />
+      </Attr>
+      <Attr id="3" Access="RW">
+        <DataDescr Name="PIN_code" type="LONG_UNSIGNED" />
+      </Attr>
+      <Attr id="4" Access="RW">
+        <DataDescr Name="QualityOfService" type="STRUCTURE" Constraint="2" />
+        <DataDescr Name="Default" type="STRUCTURE" Constraint="5" />
+        <DataDescr Name="Precedence" type="UNSIGNED" />
+        <DataDescr Name="Delay" type="UNSIGNED" />
+        <DataDescr Name="Reliability" type="UNSIGNED" />
+        <DataDescr Name="PeakThroughput" type="UNSIGNED" />
+        <DataDescr Name="MeanThroughput" type="UNSIGNED" />
+        <DataDescr Name="Requested" type="STRUCTURE" Constraint="5" />
+        <DataDescr Name="Precedence" type="UNSIGNED" />
+        <DataDescr Name="Delay" type="UNSIGNED" />
+        <DataDescr Name="Reliability" type="UNSIGNED" />
+        <DataDescr Name="PeakThroughput" type="UNSIGNED" />
+        <DataDescr Name="MeanThroughput" type="UNSIGNED" />
+      </Attr>
+      <Attr id="-1" Access="RW">
+        <DataDescr Name="OperatingMode" type="ENUM" Constraint="0@Idle;1@OnLine Listener;2@WakeUp Listener;3@OnLine Client;4@WakeUp Client" Default="1" />
+      </Attr>
+      <Attr id="-2" Access="RW">
+        <DataDescr Name="NetworkMode" type="ENUM" Constraint="0@auto;1@2G;2@3G;3@4G;4@CSD" Default="0" />
+      </Attr>
+      <Attr id="-3" Access="RW">
+        <DataDescr Name="Login" type="OCTET_STRING" Constraint="NAME:30" />
+      </Attr>
+      <Attr id="-4" Access="RW">
+        <DataDescr Name="Password" type="OCTET_STRING" Constraint="NAME:30" />
+      </Attr>
+      <Attr id="-5" Access="RW">
+        <DataDescr Name="CallerId" type="OCTET_STRING" Constraint="NAME:16" />
+      </Attr>
+      <Attr id="-6" Access="RW">
+        <DataDescr Name="ProtocolStack" type="ENUM" Constraint="0@UDP;1@TCP" Default="1" />
+      </Attr>
+      <Attr id="-7" Access="RW">
+        <DataDescr Name="InactivityTimeout" type="UNSIGNED" Constraint="0;20..255" Default="195" />
+      </Attr>
+      <Attr id="-8" Access="RW">
+        <DataDescr Name="AliveTimeout" type="UNSIGNED" Default="40" />
+      </Attr>
+      <Attr id="-9" Access="RW">
+        <DataDescr Name="DestinationIP" type="DOUBLE_LONG_UNSIGNED" Constraint="IP_FORMAT" />
+      </Attr>
+      <Attr id="-10" Access="RW">
+        <DataDescr Name="DataServerName" type="OCTET_STRING" Constraint="NAME:30" />
+      </Attr>
+      <Attr id="-11" Access="RW">
+        <DataDescr Name="DataServerPort" type="LONG_UNSIGNED" Default="4059" />
+      </Attr>
+      <Attr id="-12" Access="RW">
+        <DataDescr Name="ListenPort" type="LONG_UNSIGNED" Default="4059" />
+      </Attr>
+      <Attr id="-13" Access="RW">
+        <DataDescr Name="SIM_usage" type="UNSIGNED" Constraint="0@Default;1@FirstSimCfgOnly;2@SecondSimCfgOnly;3@BothSimCfg;4@Reserved" Default="1" />
+      </Attr>
+      <Attr id="-14" Access="RW">
+        <DataDescr Name="SIM2_APN" type="OCTET_STRING" Constraint="NAME:30" />
+      </Attr>
+      <Attr id="-15" Access="RW">
+        <DataDescr Name="SIM2_PIN" type="LONG_UNSIGNED" />
+      </Attr>
+      <Attr id="-16" Access="RW">
+        <DataDescr Name="SIM2_Login" type="OCTET_STRING" Constraint="NAME:30" />
+      </Attr>
+      <Attr id="-17" Access="RW">
+        <DataDescr Name="SIM2_Password" type="OCTET_STRING" Constraint="NAME:30" />
+      </Attr>
+      <Attr id="-18" Access="RW">
+        <DataDescr Name="LastGaspMode" type="ENUM" Constraint="0@Disabled;1@EnabledViaTCP;2@EnabledViaUDP;3@EnabledViaSMS" Default="0" />
+      </Attr>
+      <Attr id="-19" Access="RW">
+        <DataDescr Name="LastGaspDestination" type="OCTET_STRING" Constraint="*:30" Default="0" />
+      </Attr>
+      <Attr id="-20" Access="RW">
+        <DataDescr Name="RebootInterval" type="UNSIGNED" Default="7" />
+      </Attr>
+      <Attr id="-21" Access="RW">
+        <DataDescr Name="NTP_server" type="OCTET_STRING" Constraint="*:30" />
+      </Attr>
+      <Attr id="-22" Access="RW">
+        <DataDescr Name="NTP_sync_period" type="UNSIGNED" Constraint="0..240" Default="0" />
+      </Attr>
+      <Attr id="-23" Access="RW">
+        <DataDescr Name="event_server_name" type="OCTET_STRING" />
+      </Attr>
+      <Attr id="-24" Access="RW">
+        <DataDescr Name="event_server_port" type="LONG_UNSIGNED" Default="4059" />
+      </Attr>
+      <Attr id="-25" Access="RW">
+        <DataDescr Name="UART_rate" type="ENUM" Constraint="0@1200 baud;1@2400 baud;2@4800 baud;3@9600 baud;4@19200 baud;5@38400 baud" Default="3" />
+      </Attr>
+      <Attr id="-26" Access="RW">
+        <DataDescr Name="PhysicalAddress" type="LONG_UNSIGNED" Default="24" />
+      </Attr>
+      <Attr id="-27" Access="RW">
+        <DataDescr Name="PPPAuthentication" type="ENUM" Constraint="0@NoAuthentication;1@PAP;2@CHAP;3@EAP;255@Auto" Default="0" />
+      </Attr>
+      <Method id="-1" Name="Restart" />
+    </Cosem_ObjInfo>
+  </ObjInfo>
+  <DataInfo>
+    <Cosem_DataInfo class_id="1" logical_name="0,0,96,1,0,255" Category="1" Description="DeviceID1" Group="0" GroupIndex="0">
+      <Attr id="2" Access="R" />
+      <DataDescr Name="Value" type="OCTET_STRING" Constraint="*:16" />
+    </Cosem_DataInfo>
+    <Cosem_DataInfo class_id="1" logical_name="0,0,42,0,0,255" Category="1" Description="COSEMLogicalDeviceName" Group="0" GroupIndex="0">
+      <Attr id="2" Access="R" />
+      <DataDescr Name="DevType" type="OCTET_STRING" />
+    </Cosem_DataInfo>
+    <Cosem_DataInfo class_id="1" logical_name="0,0,130,0,1,255" Category="1" Description="GPRSDiagnostic" Group="0" GroupIndex="0">
+      <Attr id="2" Access="R" />
+      <Attr id="-1" Access="R">
+        <DataDescr Name="ModuleFWVersion" type="DOUBLE_LONG_UNSIGNED" Constraint="IP_FORMAT" />
+      </Attr>
+      <Attr id="-2" Access="R">
+        <DataDescr Name="3GPPModemType" type="OCTET_STRING" Constraint="NAME:30" />
+      </Attr>
+      <Attr id="-3" Access="R">
+        <DataDescr Name="CurrentServiceType" type="ENUM" Constraint="0@NotAvailable;1@2G_GPRS_EDGE;2@3G_UMTS_HSPA;3@4G_LTE;4@CSD;5@SMS" />
+      </Attr>
+      <Attr id="-4" Access="R">
+        <DataDescr Name="3GPPModemIMEI" type="OCTET_STRING" Constraint="*:16" />
+      </Attr>
+      <Attr id="-5" Access="R">
+        <DataDescr Name="3GPPModemSN" type="OCTET_STRING" Constraint="*:16" />
+      </Attr>
+      <Attr id="-6" Access="R">
+        <DataDescr Name="BatteryLevel" type="ENUM" Constraint="0@NoBattery;1@LowBattery;2@BatteryOK" Default="0" />
+      </Attr>
+      <Attr id="-7" Access="R">
+        <DataDescr Name="ModemIPAddress" type="DOUBLE_LONG_UNSIGNED" Constraint="IP_FORMAT" />
+      </Attr>
+      <DataDescr Name="GPRS_diag" type="STRUCTURE" Constraint="2" />
+      <DataDescr Name="status" type="ENUM" Constraint="0@NotRegistered;1@HomeNetwork;2@Searching;3@RegistrationDenied;4@Unknown;5@Roaming;6@RegisteredForSMS;7@RegisteredForSMSRoaming;8@Reserved;9@RegisteredForCSFB;10@RegisteredForCSFBRoaming" />
+      <DataDescr Name="signal_quality" type="UNSIGNED" Constraint="99@Not known or not detectable (99);0@-113 dBm (0);1@-111 dBm (1);2@-109 dBm (2);3@-107 dBm (3);4@-105 dBm (4);5@-103 dBm (5);6@-101 dBm (6);7@-99 dBm (7);8@-97 dBm (8);9@-95 dBm (9);10@-93 dBm (10);11@-91 dBm (11);12@-89 dBm (12);13@-87 dBm (13);14@-85 dBm (14);15@-83 dBm (15);16@-81 dBm (16);17@-79 dBm (17);18@-77 dBm (18);19@-75 dBm (19);20@-73 dBm (20);21@-71 dBm (21);22@-69 dBm (22);23@-67 dBm (23);24@-65 dBm (24);25@-63 dBm (25);26@-61 dBm (26);27@-59 dBm (27);28@-57 dBm (28);29@-55 dBm (29);30@-53 dBm (30);31@-51 dBm or greater (31)" />
+    </Cosem_DataInfo>
+    <Cosem_DataInfo class_id="1" logical_name="0,0,96,11,0,255" Category="1" Description="CodeEventForStandardEventLog" Group="0" GroupIndex="0">
+      <Attr id="2" Access="N" />
+      <DataDescr Name="Value" type="UNSIGNED" Constraint="0@ModemStart;1@LastGasp;2@RestartingOnSchedule;3@RestartingOnDemand;4@RegisteredInNetworkIn2Gmode;5@RegisteredInNetworkIn3Gmode;6@RegisteredInNetworkIn4Gmode;7@ConnectedInCSDmode;8@ConfigurationParameterChanged;9@FirmwareUpdateStarted;16@FirmwareUpdateFailed;17@FirmwareUpdatedSuccessfully;18@RTC_SynchronizationError;19@RTC_SynchronizedSuccessfully;">
+        <CodeEvent>
+          <Value V="0" Name="ModemStart" Txt="" />
+          <Value V="1" Name="LastGasp" Txt="" />
+          <Value V="2" Name="RestartingOnSchedule" Txt="" />
+          <Value V="3" Name="RestartingOnDemand" Txt="" />
+          <Value V="4" Name="RegisteredInNetworkIn2Gmode" Txt="" />
+          <Value V="5" Name="RegisteredInNetworkIn3Gmode" Txt="" />
+          <Value V="6" Name="RegisteredInNetworkIn4Gmode" Txt="" />
+          <Value V="7" Name="ConnectedInCSDmode" Txt="" />
+          <Value V="8" Name="ConfigurationParameterChanged" Txt="" />
+          <Value V="9" Name="FirmwareUpdateStarted" Txt="" />
+          <Value V="16" Name="FirmwareUpdateFailed" Txt="" />
+          <Value V="17" Name="FirmwareUpdatedSuccessfully" Txt="" />
+          <Value V="18" Name="RTC_SynchronizationError" Txt="" />
+          <Value V="19" Name="RTC_SynchronizedSuccessfully" Txt="" />
+        </CodeEvent>
+      </DataDescr>
+    </Cosem_DataInfo>
+  </DataInfo>
+  <RegisterInfo />
+  <ProfileInfo>
+    <Cosem_ProfileInfo class_id="7" logical_name="0,0,99,98,0,255" Category="9" Description="StandardEventLog" Group="0" GroupIndex="0" capture_period="0" profile_entries="0" access_selectors="First" buf_size="4080" value_size="0" extra_entry_size="-5" Kind="Async">
+      <Attr id="2" Access="R" />
+      <Attr id="3" Access="RW" Constraint="1..20" />
+      <Attr id="4" Access="R" />
+      <Attr id="5" Access="R" />
+      <Attr id="6" Access="R" />
+      <Attr id="7" Access="R" />
+      <Attr id="8" Access="RW" />
+      <Attr id="-20" Access="N" Default="false" />
+      <Method id="-1" Name="GetBufAsc" />
+      <Method id="-2" Name="GetBufDesc" />
+      <Object class_id="1" logical_name="0,0,96,11,0,255" attribute_index="2" data_index="0" />
+    </Cosem_ProfileInfo>
+  </ProfileInfo>
+</DevInfo>
