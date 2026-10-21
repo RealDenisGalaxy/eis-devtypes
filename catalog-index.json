@@ -1,29 +1,4 @@
 {
   "Schema": 1,
-  "Entries": [
-    {
-      "Manufacturer": "ROKIP",
-      "Model": "ST402C-15A33R45-4GR1OS00210-sml",
-      "Firmware": "V031206",
-      "Configuration": null,
-      "Source": "Previously read meter association catalogue",
-      "Path": "ROKIP_ST402C_V031206.xml",
-      "Size": 404291,
-      "Sha256": "123F86F24D704146E2EF12A3EE73C3B1ECCC411CB94D05B471CF7065E610292B",
-      "Objects": 949,
-      "Schema": 1
-    },
-    {
-      "Manufacturer": "Landis+Gyr",
-      "Model": "Z.X",
-      "Firmware": "V430500",
-      "Configuration": "C11C1211P0O12ns",
-      "Source": "Supplied MAP120 V430500 device description; parameter values omitted",
-      "Path": "LG_ZX_V430500_C11C1211P0O12ns.xml",
-      "Size": 722629,
-      "Sha256": "1D7650D9031D488693190D350950798D951CC58A5ADB8853BFB478CBE774841E",
-      "Objects": 285,
-      "Schema": 1
-    }
-  ]
+  "Entries": []
 }
