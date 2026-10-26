@@ -225,6 +225,14 @@
       "Path": "AD13S3_SPODES_HPLC_v_8_0_39_0.imgx",
       "Size": 674146,
       "Sha256": "102EDE608F063A528EBDDD9564729EC16CF4874A9958B9CB7F55A0B75732E241"
+    },
+    {
+      "Model": "Матрица CM3M.G-4-1",
+      "VersionLabel": "8.2.0.12",
+      "Name": "CM3M.G-4-1_DS_v.8.2.0.12.imgx",
+      "Path": "CM3M.G-4-1_DS_v.8.2.0.12.imgx",
+      "Size": 87844,
+      "Sha256": "CC42136C2B6B77D478A106D072A304A2D03341A568DB120C66B26C76BECFE0AF"
     }
   ],
   "Versions": [
